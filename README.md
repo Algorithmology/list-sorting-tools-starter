@@ -22,9 +22,9 @@ function signature that you carefully document in a README and your tool's
 comments.
 - Accept as input the fully-qualified name of a sorting function that should be
 subject to benchmarking.
-- Accept as input the description of an input generation procedure that will be
-able to automatically generate data suitable for the purposes of conducting a
-doubling experiment to evaluate the performance of the sorting algorithm.
+- Accept as input the description of an input generation procedure that can
+automatically generate data suitable for the purposes of conducting a doubling
+experiment to evaluate the performance of the sorting algorithm.
 - Automatically extract the sorting function from the provided Python source
 code file(s) and then reflectively invoke the function to sort data that was
 automatically generated.
@@ -35,6 +35,13 @@ and then uses them to evaluate the performance of the sorting algorithm.
 round of the doubling experiment, a computed version of the doubling ratio based
 on the collected data, and a statement about the likely worst-case time
 complexity suggested by the doubling ratio.
+- Your tool must be implemented with the Python programming language and use the
+Poetry system for managing dependencies and packaging.
+- Your tool must provide a command-line interface implemented through the use of
+Typer and offer command-line arguments that fully support its configuration.
+- Your tool can leverage Python source code that you previously implemented as a
+part of a course project as long as you carefully document the source of any
+Python code segments.
 
 As you work to build and evaluate this system in a team-based fashion, please
 keep in mind the following considerations and tasks:
