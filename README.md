@@ -28,29 +28,41 @@ doubling experiment to evaluate the performance of the sorting algorithm.
 - Automatically extract the sorting function from the provided Python source
 code file(s) and then reflectively invoke the function to sort data that was
 automatically generated.
-- In a series of automatically completed rounds, the tool should conduct a
-doubling experiment
+- In a series of automatically completed benchmarking rounds, the tool should
+conduct a doubling experiment by which it generates data sets of increasing size
+and then uses them to evaluate the performance of the sorting algorithm.
+- The tool should produce diagnostic data that shows the execution time for each
+round of the doubling experiment, a computed version of the doubling ratio based
+on the collected data, and a statement about the likely worst-case time
+complexity suggested by the doubling ratio.
 
 As you work to build and evaluate this system in a team-based fashion, please
 keep in mind the following considerations and tasks:
 
 - Meet in your assigned groups to discuss how your team is going to design,
-implement, test, and evaluate your benchmarking framework.
-- Discuss with your team members the likely runtimes and running times of your
-implementations.
+implement, test, and evaluate your benchmarking framework. Make sure that you
+give your benchmarking framework a descriptive name that reflects its purpose.
+- Discuss with your team members which GitHub repository you are going to use to
+coordinate your work. As you make this decision, please bear in mind that the
+final version of your framework will be transferred to the course's GitHub
+organization and so that it may be considered for use in follow-on projects.
 - Specify, design, and implement a benchmarking framework that supports the
-experimental evaluation of the functions that you and your team members
-implemented as a part of the mid-term examination.
+experimental evaluation of any sorting algorithm function that you and your team
+members agree your benchmarking framework should support.
+- Collect a group of sorting algorithms and use them to conduct a series of
+doubling experiments that experimentally evaluate their performance with the
+ultimate goal of determining which algorithm is the fastest and characterizing
+the likely time complexity of each algorithm.
 - Write and publish on the course web site a blog post that explains (a) the
 runtime results from your experimental study with the benchmarking framework
 that you implemented and (b) the running time results from an analytical
 evaluation that you independently conducted. Your blog post should clearly
 articulate (a) whether or not the experimental and analytical results for your
 function are in alignment with each other, (b) what is most likely to be the
-realistic runtime and true running time of your function, and (c) why you judge
-that your function has this runtime and running time, (d) which function from
-among those implemented by your team members is the fastest, and (e) why this
-single implementation proved to be the fastest among all of the solutions.
+realistic runtime and true running time of a sorting function, and (c) why you
+judge that your function has this runtime and running time, (d) which function
+from among those implemented by your team members is the fastest, and (e) why
+this single implementation proved to be the fastest among all of the solutions.
 - Present your findings to the entire class during the following week of the
 academic semester during the follow-on algorithm all-hands session.
 - Please note that all of the work that you complete for this assignment should
