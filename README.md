@@ -65,14 +65,13 @@ designed and implemented your benchmarking framework, (b) the sorting algorithm
 functions that you chose to use in your doubling experiments, (c) the runtime
 results from your experimental study with the benchmarking framework that you
 implemented and (d) the running time results from an analytical evaluation that
-you independently conducted. Your blog post should clearly articulate (a)
-whether or not the experimental and analytical results for your function are in
-alignment with each other, (b) what is most likely to be the realistic runtime
-and true running time of a sorting function, and (c) why you judge that your
-function has this runtime and running time, (d) which sorting algorithm function
-from among those selected by your team members is the fastest, and (e) why this
-single implementation proved to be the fastest among all of the sorting
-algorithms.
+you conducted. Your blog post should clearly articulate (a) whether or not the
+experimental and analytical results for your function are in alignment with each
+other, (b) what is most likely to be the realistic runtime and true running time
+of a sorting function, and (c) why you judge that your function has this runtime
+and running time, (d) which sorting algorithm function from among those selected
+by your team members is the fastest, and (e) why this specific implementation
+proved to be the fastest among all of the sorting algorithms.
 - Present your findings to the entire class during the following week of the
 academic semester during the follow-on algorithm all-hands session.
 - Please note that all of the work that you complete for this assignment should
