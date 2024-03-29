@@ -78,8 +78,8 @@ academic semester during the follow-on algorithm all-hands session.
 be published to the course web site. Your team must create and contribute to a
 pull request on the course web site's GitHub repository and ensure that your
 work is reviewed, revised, and published in advance of the Friday class session
-next week. Importantly, your implementation of the benchmarking framework and
-the sorting algorithms should be available in one or more additional GitHub
+for next week. Importantly, your implementation of the benchmarking framework
+and the sorting algorithms should be available in one or more additional GitHub
 repositories that are referenced in the blog post that you write.
 
 It is important to point out that your repository for this project was created
