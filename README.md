@@ -12,12 +12,30 @@ solving strategies that support searching through and sorting data sets:
 - [Sorting Algorithms: Learn how to efficiently process data](https://algorithmology.org/schedule/weekeleven/)
 
 This algorithm all-hands assignment invites you to apply what you learned in
-those modules to complete the following steps in a team-based fashion:
+those modules by implementing a benchmarking framework that operates in the
+following fashion:
 
-- Meet in your assigned groups to discuss your assigned function from the
-mid-term examination.
-- Share and present to the other members of your team the source code that you
-implemented.
+- Accept as input one or more Python source code files that contain one or more
+functions that perform sorting. For the purposes of creating your benchmarking
+framework you can assume that all sorting algorithms will implement the same
+function signature that you carefully document in a README and your tool's
+comments.
+- Accept as input the fully-qualified name of a sorting function that should be
+subject to benchmarking.
+- Accept as input the description of an input generation procedure that will be
+able to automatically generate data suitable for the purposes of conducting a
+doubling experiment to evaluate the performance of the sorting algorithm.
+- Automatically extract the sorting function from the provided Python source
+code file(s) and then reflectively invoke the function to sort data that was
+automatically generated.
+- In a series of automatically completed rounds, the tool should conduct a
+doubling experiment
+
+As you work to build and evaluate this system in a team-based fashion, please
+keep in mind the following considerations and tasks:
+
+- Meet in your assigned groups to discuss how your team is going to design,
+implement, test, and evaluate your benchmarking framework.
 - Discuss with your team members the likely runtimes and running times of your
 implementations.
 - Specify, design, and implement a benchmarking framework that supports the
