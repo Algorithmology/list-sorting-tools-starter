@@ -53,23 +53,28 @@ members agree your benchmarking framework should support.
 doubling experiments that experimentally evaluate their performance with the
 ultimate goal of determining which algorithm is the fastest and characterizing
 the likely time complexity of each algorithm.
-- Write and publish on the course web site a blog post that explains (a) the
-runtime results from your experimental study with the benchmarking framework
-that you implemented and (b) the running time results from an analytical
-evaluation that you independently conducted. Your blog post should clearly
-articulate (a) whether or not the experimental and analytical results for your
-function are in alignment with each other, (b) what is most likely to be the
-realistic runtime and true running time of a sorting function, and (c) why you
-judge that your function has this runtime and running time, (d) which function
-from among those implemented by your team members is the fastest, and (e) why
-this single implementation proved to be the fastest among all of the solutions.
+- Write and publish on the course web site a blog post that explains (a) how you
+designed and implemented your benchmarking framework, (b) the sorting algorithm
+functions that you chose to use in your doubling experiments, (c) the runtime
+results from your experimental study with the benchmarking framework that you
+implemented and (d) the running time results from an analytical evaluation that
+you independently conducted. Your blog post should clearly articulate (a)
+whether or not the experimental and analytical results for your function are in
+alignment with each other, (b) what is most likely to be the realistic runtime
+and true running time of a sorting function, and (c) why you judge that your
+function has this runtime and running time, (d) which sorting algorithm function
+from among those selected by your team members is the fastest, and (e) why this
+single implementation proved to be the fastest among all of the sorting
+algorithms.
 - Present your findings to the entire class during the following week of the
 academic semester during the follow-on algorithm all-hands session.
 - Please note that all of the work that you complete for this assignment should
 be published to the course web site. Your team must create and contribute to a
 pull request on the course web site's GitHub repository and ensure that your
 work is reviewed, revised, and published in advance of the Friday class session
-next week.
+next week. Importantly, your implementation of the benchmarking framework and
+the sorting algorithms should be available in one or more additional GitHub
+repositories that are referenced in the blog post that you write.
 
 It is important to point out that your repository for this project was created
 from the GitHub repository template called
@@ -96,6 +101,9 @@ Code while completing this assignment.
 
 - TODO: Provide a reference to the GitHub repository that your team used to
 store your implementation of the benchmarking framework.
+
+- TODO: If your sorting algorithm functions are stored in a separate GitHub
+repository, please provide a reference to that GitHub repository as well.
 
 - TODO: Add a reference to the blog post that you and your team members wrote.
 
